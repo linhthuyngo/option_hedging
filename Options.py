@@ -114,5 +114,5 @@ plt.xlabel('Terminal Price', fontsize=16)
 plt.ylabel('Gain/Loss', fontsize=16)
 #plt.savefig('Answer to Qn4 in Practice Questions B', dpi=100, bbox_inches='tight')
 plt.show()
-
+print('Done.')
 
