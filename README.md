@@ -4,7 +4,7 @@ To start with some basic definitions, options are financial instruments, also kn
 
 Options can be used to hedge against an existing portfolio based on the portfolio manager's expectation on the underlying asset price movement. There are a number of option hedging strategies such as protective put, covered call, bull spread, bear spread, butterfly spread, straddle and strangle.
 
-The purpose of this repo is to visualise all these option hedging strategies given your own input. You will be required to input details of one or more options such as strike price, premium and quantity. Then a graph will be plotted with automatic scaling and titling as well as saved as a png file. Break-even point(s) will also be displayed.
+The purpose of this repo is to visualise all these option hedging strategies given your own input. You will be required to input details of one or more options such as strike price, premium and quantity. Then a graph will be plotted with automatic scaling, titling and saving as a png file. Break-even point(s) will also be displayed.
 
 ## Usage
 First of all, you can explore all arguments that you are able to input by running ```python Options.py -h```
