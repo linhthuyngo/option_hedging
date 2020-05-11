@@ -15,14 +15,14 @@ Please remember that when you buy an option, you need to input negative premium 
 
 ```python Options.py --lp --lpv 100 -10 1 --lpos --lposv 90 1```
 
-will results the output like this:
+will result the output like this:
 
 ![option plot](pics/Protective_Put_Strategy.png)
 
-Please be aware that you are able to input two long options and/or two short options with different strike prices. For example, you buy one call option with k = $100, p = $30 and another one with k = $150, p = $20. You also sell a call option with k = $125, p = $20
+Please be aware that you are able to input two long options and/or two short options with different strike prices. For example, you buy one call option with k = $100, p = $30 and another one with k = $150, p = $20. You also sell a call option with k = $125, p = $20.
 
 ```python Options.py --lc --lcv 100 -30 1 --lc2 --lcv2 150 -20 1 --sc --scv 125 20 2```
 
-will results the output like this:
+will result the output like this:
 
 ![option plot](pics/Butterfly_Spread_Strategy.png)
