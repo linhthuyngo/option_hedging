@@ -27,10 +27,10 @@ parser.add_argument("--sp", default=False, action="store_true" , help="enable SP
 parser.add_argument("--spv", nargs='+', default=[0, 0, 0], type=float, help='SP k p n value')
 parser.add_argument("--sp2", default=False, action="store_true" , help="enable SP2")
 parser.add_argument("--spv2", nargs='+', default=[0, 0, 0], type=float, help='SP2 k p n value')
-parser.add_argument("--lpos", default=False, action="store_true", help="enable Long Position")
-parser.add_argument("--lposv", nargs='+', default=[0, 0], type=float, help='Long Position k n value')
-parser.add_argument("--spos", default=False, action="store_true", help="enable Short Position")
-parser.add_argument("--sposv", nargs='+', default=[0, 0], type=float, help='Short Position k n value')
+parser.add_argument("--lpos", default=False, action="store_true", help="enable Long stock position")
+parser.add_argument("--lposv", nargs='+', default=[0, 0], type=float, help='Long stock position k n value')
+parser.add_argument("--spos", default=False, action="store_true", help="enable Short stock position")
+parser.add_argument("--sposv", nargs='+', default=[0, 0], type=float, help='Short stock position k n value')
 
 
 args = parser.parse_args()
