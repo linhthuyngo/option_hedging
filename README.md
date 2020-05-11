@@ -16,7 +16,7 @@ Please remember that when you buy an option, you need to input negative premium 
 
 will results the output like this:
 
-![option plot](pics/Protective Put Strategy.png)
+![option plot](pics/Protective_Put_Strategy.png)
 
 Please be aware that you are able to input two long options and/or two short options with different strike prices. For example, you buy one call option with k = $100, p = $30 and another one with k = $150, p = $20. You also sell a call option with k = $125, p = $20
 
