@@ -8,6 +8,7 @@ The purpose of this repo is to visualise all these option hedging strategies giv
 
 ## Usage
 First of all, you can explore all arguments that you are able to input by running ```python Options.py -h```
+
 For example, you want to see how a long put and a long postion of stock look like. The long put has a strike price (k) of $100, premium (p) is $10, quantity (n) is 1. You have also bought a stock at $90.
 
 Please remember that when you buy an option, you need to input negative premium value (p) as this is the amount you pay.
