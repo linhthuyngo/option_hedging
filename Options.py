@@ -139,8 +139,6 @@ if __name__ == '__main__':
     join = '; '.join(strings)
     if len(strings) < 10:
         print('Break-even point(s): ', join)
-    else:
-        print('Minimum gain is 0')
 
     # Titling display rule
     if LP is True and Lpos is True:
@@ -176,6 +174,9 @@ if __name__ == '__main__':
     if LC2 is True or LP2 is True or SC2 is True or SP2 is True:
         title = 'Butterfly Spread Strategy'
         y_label = 'Butterfly Spread'
+    else:
+        title = 'Result'
+        y_label = 'Hedged Position'
 
     # Plot
     plt.plot(sT, y, 'k', linewidth=2, label=y_label)
